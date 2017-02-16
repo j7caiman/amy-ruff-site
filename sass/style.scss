@@ -1,0 +1,38 @@
+@import 'materialize';
+
+html {
+  font-family: Calibri, Trebuchet, sans-serif;
+}
+
+body {
+  @extend .brown, .lighten-5;
+}
+
+#logo {
+  padding: 15px;
+  width: 100%;
+}
+
+nav, footer, .side-nav {
+  @extend .deep-orange, .lighten-1;
+}
+
+p, span {
+  @extend .light;
+}
+
+#footerText {
+  @extend .white-text;
+}
+
+.dropdown-content li > a {
+  color: black;
+}
+
+#aboutText,  #infoText {
+  text-align: justify;
+}
+
+#aboutImage, #teachingImage {
+  padding-top: 20px;
+}
