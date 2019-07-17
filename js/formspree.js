@@ -15,7 +15,7 @@ $("#sendMessage").click(function() {
 
   $.ajax({
     method: "POST",
-    url: "https://formspree.io/j7caiman+amyRuffSite@gmail.com",
+    url: "https://formspree.io/amy.ruff@outlook.com",
     data: {
       email: emailTag.val(),
       content: contentTag.val(),
